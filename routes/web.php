@@ -13,4 +13,5 @@ use App\Http\Controllers\OfertaCreditoController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/ofertasdecredito/{cpf}/{valorSolicitado}',[OfertaCreditoController::class,'analiseCredito']);
 
