@@ -9,7 +9,8 @@ API para consultar disponibilidade de crédito para um determinado CPF e informa
 
 
 ```sh
-git clone https://github.com/1PedroSoares/GoSatTeste.git
+
+git@github.com:1PedroSoares/apiConsultaCredito.git
 
 composer install
 
